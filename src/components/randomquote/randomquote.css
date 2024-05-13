@@ -1,0 +1,49 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    margin: 150px auto ;
+    background:navy ;
+    width: 800px;
+    padding: auto;
+    
+    border-radius: 15px;
+}
+
+.qoute{
+    padding: 60px 110px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+.line{
+   width: 680px;
+   height: 1.5px;
+   background: white;
+
+}
+.bootom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    margin: 30px 0px;
+}
+.author{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.icons img{
+    padding: 0px 10px;
+    cursor:pointer ;
+    height: 36px;
+}
